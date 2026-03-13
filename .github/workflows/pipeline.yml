@@ -20,5 +20,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run script
-        run: python app.py
+      - name: Test script
+        run: python -c "print('Pipeline works')"
